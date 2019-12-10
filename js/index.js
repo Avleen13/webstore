@@ -1,8 +1,8 @@
 //variables
 const dressData = [
   {
-    name: `Skirt with Tie Belt Zara`,
-    imageUrl: `img/images/img1.jpeg`,
+    name: `Skirt with Belt Zara`,
+    imageUrl: `img/img1.jpeg`,
     productCode: 200,
     category: `Dress`,
     price: `300`,
@@ -16,8 +16,8 @@ const dressData = [
   },
   
   {
-    name: `Women Flare Dress Zara`,
-    imageUrl: `img/dress2.jpeg`,
+    name: `Peach Flare Dress Zara`,
+    imageUrl: `img/img2.jpeg`,
     productCode: 200,
     category: `Skirt`,
     price: `100`,
@@ -31,8 +31,8 @@ const dressData = [
   },
   
    {
-    name: `Women Dress with Pleats Zara`,
-    imageUrl: `img/dress3.jpeg`,
+    name: `Dress with Pleats Zara`,
+    imageUrl: `img/img16.jpeg`,
     productCode: 200,
     category: `Skirt`,
     price: `230`,
@@ -46,8 +46,8 @@ const dressData = [
   },
   
  {
-    name: `Women Floral Print Maxi Dress Zara`,
-    imageUrl: `img/dress4.jpeg`,
+    name: `Floral Maxi Dress Zara`,
+    imageUrl: `img/img7.jpeg`,
     productCode: 100,
     category: `Skirt`,
     price: `200`,
@@ -61,8 +61,8 @@ const dressData = [
   },
   
    {
-    name: `Women Solid Maxi Dress Zara`,
-    imageUrl: `img/dress1.jpeg`,
+    name: `Solid Maxi Dress Zara`,
+    imageUrl: `img/img17.jpeg`,
     productCode: 80,
     category: `Skirt`,
     price: `200`,
@@ -76,8 +76,8 @@ const dressData = [
   },
   
    {
-    name: `Women Black Solid Bodycon Dress`,
-    imageUrl: `img/dress1.jpeg`,
+    name: `Black Solid Bodycon Dress`,
+    imageUrl: `img/img4.jpeg`,
     productCode: 120,
     category: `Skirt`,
     price: `200`,
@@ -91,8 +91,8 @@ const dressData = [
   },
   
  {
-    name: `Women Fit and Flare Dress Zara`,
-    imageUrl: `img/dress1.jpeg`,
+    name: `Fit and Flare Dress Zara`,
+    imageUrl: `img/img6.jpeg`,
     productCode: 300,
     category: `Skirt`,
     price: `200`,
@@ -105,8 +105,8 @@ const dressData = [
     onSale: true
   },
    {
-    name: `Women Printed Maxi Dress`,
-    imageUrl: `img/dress1.jpeg`,
+    name: `Printed Maxi Dress`,
+    imageUrl: `img/img5.jpeg`,
     productCode: 170,
     category: `Skirt`,
     price: `200`,
@@ -120,8 +120,8 @@ const dressData = [
   },
   
 {
-    name: `Skirt with Tie Belt `,
-    imageUrl: `img/dress2.jpeg`,
+    name: `Shift Orange Dress`,
+    imageUrl: `img/img8.jpeg`,
     productCode: 111,
     category: `casual`,
     price: `210`,
@@ -134,8 +134,8 @@ const dressData = [
     onSale: true
   },
    {
-    name: `Skirt with Tie Belt`,
-    imageUrl: `img/dress2.jpeg`,
+    name: `Fit Blue Dress`,
+    imageUrl: `img/img9.jpeg`,
     productCode: 112,
     category: `casual`,
     price: `110`,
@@ -148,8 +148,8 @@ const dressData = [
     onSale: false
   },
   {
-    name: `Skirt with Tie Belt `,
-    imageUrl: `img/dress2.jpeg`,
+    name: `High Low Black Dress `,
+    imageUrl: `img/img10.jpeg`,
     productCode: 113,
     category: `casual`,
     price: `180`,
@@ -162,8 +162,8 @@ const dressData = [
     onSale: true
   },
    {
-    name: `Skirt with Tie Belt`,
-    imageUrl: `img/dress2.jpeg`,
+    name: `Pinafore Red Dress`,
+    imageUrl: `img/img11.jpeg`,
     productCode: `PUMA103`,
     category: `casual`,
     price: `130`,
@@ -176,8 +176,8 @@ const dressData = [
     onSale: true
   },
   {
-    name: `Skirt with Tie Belt `,
-    imageUrl: `img/dress2.jpeg`,
+    name: `Sheath Maroon Dress`,
+    imageUrl: `img/img12.jpeg`,
     productCode: 113,
     category: `casual`,
     price: `180`,
@@ -190,8 +190,92 @@ const dressData = [
     onSale: true
   },
    {
+    name: `Shirt Multicolor Dress`,
+    imageUrl: `img/img13.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
     name: `Skirt with Tie Belt`,
-    imageUrl: `img/dress2.jpeg`,
+    imageUrl: `img/img14.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
+    name: `Maxi White Dress`,
+    imageUrl: `img/img15.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
+    name: `Skirt with Tie Belt`,
+    imageUrl: `img/img18.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
+    name: `Bodycon Multicolor Dress`,
+    imageUrl: `img/img19.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
+    name: `Fit and Flare Pink Dress`,
+    imageUrl: `img/img20.jpeg`,
+    productCode: `PUMA103`,
+    category: `casual`,
+    price: `130`,
+    rating: 2,
+    brand: `gap`,
+    colors: [`red`, `blue`],
+    stock: 10,
+    sizes: [7, 8, 9],
+    discount: 5,
+    onSale: true
+  },
+  {
+    name: ` Wrap White Dress`,
+    imageUrl: `img/img21.jpeg`,
     productCode: `PUMA103`,
     category: `casual`,
     price: `130`,
@@ -218,7 +302,7 @@ function getDressesAsHtml(dressData) {
     <div class="content_x">
     <p class="p-heading"><strong>${dressData.name}</strong></p>
       <p class="productCardListItem"><h3>${dressData.category}</h3></p>
-      <p class="productCardListItem"><h3>Price: $${dressData.price}</h3></p>
+      <p class="productCardListItem"><h3>Price: ${dressData.price}</h3></p>
       <p class="productCardListItem"><h3>Average rating: ${dressData.rating}</h3></p>
 
         <a type="button" class="btn" id="addtocart"> Add to Cart</a> 
