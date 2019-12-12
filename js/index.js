@@ -310,6 +310,7 @@ function getDressesAsHtml(dressData) {
 </section>`;
 }
 
+//Search function
 function SearchAsHtml(){
   return `<div class="search">
   <input placeholder="Search for products" type="search" name="find" id="find" >
@@ -319,6 +320,8 @@ function SearchAsHtml(){
 </div>`
 }
 
+
+//sorting function
 function ProductHighToLow() {
   const HighToLowBtnArr = dressData
     .slice(0)
@@ -354,7 +357,7 @@ const renderDresses = (arr) => {
 }
 
 
-
+//filters function
 const colorBlackFilter = () =>{
   const redDresses = dressData.filter(c => c.colors == "Black");
   renderDresses(redDresses);
@@ -433,19 +436,19 @@ const twoStarFilter = () => {
 //execution
 window.addEventListener('load', () => {
   renderDresses(dressData);
-  document.getElementById("searchMain").innerHTML = SearchAsHtml();
+      document.getElementById("searchMain").innerHTML = SearchAsHtml();
 
-  document.getElementById("find").addEventListener("input",searchDresses);
+      document.getElementById("find").addEventListener("input",searchDresses);
 
-  document.getElementById(`HighToLowBtn`).addEventListener("click", ProductHighToLow);
-  document.getElementById(`LowToHighBtn`).addEventListener("click", ProductLowToigh);
-  document.getElementById(`availabilityBtn`).addEventListener("click", ProductsByAvailability);
+      document.getElementById(`HighToLowBtn`).addEventListener("click", ProductHighToLow);
+      document.getElementById(`LowToHighBtn`).addEventListener("click", ProductLowToigh);
+      document.getElementById(`availabilityBtn`).addEventListener("click", ProductsByAvailability);
 
-  document.getElementById("black").addEventListener("click",colorBlackFilter);
-  document.getElementById("purple").addEventListener("click",colorPurpleFilter);
-  document.getElementById("green").addEventListener("click",colorGreenFilter);
-  document.getElementById("red").addEventListener("click",colorRedFilter);
-  document.getElementById("blue").addEventListener("click",colorBlueFilter);
+      document.getElementById("black").addEventListener("click",colorBlackFilter);
+      document.getElementById("purple").addEventListener("click",colorPurpleFilter);
+      document.getElementById("green").addEventListener("click",colorGreenFilter);
+      document.getElementById("red").addEventListener("click",colorRedFilter);
+      document.getElementById("blue").addEventListener("click",colorBlueFilter);
 
     document.getElementById("xs").addEventListener("click",sizeXsFilter);
     document.getElementById("sm").addEventListener("click",sizeSFilter);
