@@ -1,3 +1,4 @@
+/* Created By Avleen */
 html{
     box-sizing: border-box;
   }
@@ -37,7 +38,6 @@ html{
     color:#fff;
   }
   
-  
   .navItems ul {
     list-style-type: none;
     margin-bottom: 1rem;;
@@ -46,6 +46,12 @@ html{
     background-color:#0562e8;
     border: 0.2em solid #0b4dad;
   }
+
+  .navItems .main-nav-list-items{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
   
   .navItems li {
     display: inline-block;
@@ -54,12 +60,13 @@ html{
     
   }
   
-  li a {
+  .main-nav-list-items a {
     display: block;
     color: white;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
+    font-size: 1em;
   }
   
   .navItems li a:hover {
@@ -385,19 +392,91 @@ padding-bottom: 0.5em;
   line-height: 1em;
    margin: 0;
 }
+/* For Mobiles */ 
 @media screen and (max-width:500px) {
+
+  .products {
+    grid-template-columns: 1fr;
+  }
   .footer-grid{
     grid-template-columns: 1fr; 
     }
+    .navOuter{
+      text-align: center;
+    }
+    .sortingList h2{
+      display: none;
+    }
+    
+    .navItems .searchQuery{
+      width: 200px;
+      float: none;
+    }
+
+    .main-content,.sidenav{
+      display: block;
+      border-bottom:1px solid #cccccc ;
+
+    }
+    .sidenav fieldset{
+      display: inline-block;
+      border-bottom:none ;
+    }
+
+     
 }
+/* For Tablets */
+
 @media screen and (max-width:927px) and (min-width:501px){
+
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
   .footer-grid{
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+    }
+    .navOuter{
+      text-align: center;
+    }
+    .navOuter{
+      text-align: center;
+    }
+    .navItems .searchQuery{
+      float:none;
+      text-align: center;
+      
+    }
+    .main-content,.sidenav{
+      display: block;
+      text-align: center;
+      border-bottom:1px solid #cccccc ;
+    }
+    .sidenav fieldset{
+      display: inline-block;
+      margin-right: 5em;
+      border-bottom:none ;
+      font-size: 1.2em;
     }
      
 }
 
+/* For Desktop */
 @media screen and (max-width:1128px) and (min-width:928px){
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+  .places-block{
+      grid-template-columns: 1fr 1fr;
+  } 
+  .navItems .searchQuery{
+    
+    text-align: center;
+  }
+  .navOuter{
+    text-align: center;
+  }
+  
+}
  
 
   

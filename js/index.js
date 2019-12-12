@@ -1,4 +1,4 @@
-//variables
+//variable declaration
 const dressData = [
   {
     name: `Skirt with Belt Zara`,
@@ -6,26 +6,26 @@ const dressData = [
     productCode: 200,
     category: `Custom`,
     price: `300`,
-    rating: 3.1,
+    rating: 3,
     brand: `Zara`,
-    colors: [`Black`, `Purple`, `Green`,`Red`],
+    colors: [`Black`, `Purple`,`Green`,`Red`,`Blue`],
     stock: 3,
-    sizes: [XS,S,M,L,XL],
+    sizes: `XS`,
     discount: 40,
     onSale: true
   },
   
   {
-    name: `Peach Flare Dress Zara`,
+    name: `Flare Dress Zara`,
     imageUrl: `img/img2.jpeg`,
     productCode: 200,
     category: `Casual`,
     price: `100`,
-    rating: 3.1,
+    rating: 4,
     brand: `Zara`,
-    colors: [`Black`, `Purple`, `Green`],
+    colors: [`Green`],
     stock: 9,
-    sizes: [XS,S,M,L],
+    sizes: `S`,
     discount: 40,
     onSale: true
   },
@@ -36,11 +36,11 @@ const dressData = [
     productCode: 200,
     category: `Party Wear`,
     price: `230`,
-    rating: 3.1,
+    rating: 5,
     brand: `Zara`,
-    colors: [`Purple`, `Green`,`Red`],
+    colors: [`Red`],
     stock: 4,
-    sizes: [S,M,L],
+    sizes: `M`,
     discount: 40,
     onSale: true
   },
@@ -51,11 +51,11 @@ const dressData = [
     productCode: 100,
     category: `Casual`,
     price: `200`,
-    rating: 3.1,
+    rating: 4,
     brand: `Zara`,
-    colors: [`blue`],
+    colors: [`Blue`],
     stock: 9,
-    sizes: [S,L],
+    sizes: `XL`,
     discount: 40,
     onSale: true
   },
@@ -66,26 +66,26 @@ const dressData = [
     productCode: 80,
     category: `Custom`,
     price: `200`,
-    rating: 3.1,
+    rating: 2,
     brand: `Zara`,
-    colors: [`red`, `blue`],
+    colors: [`Red`, `Blue`],
     stock: 78,
-    sizes: [XS,M,XL],
+    sizes: `XS`,
     discount: 40,
     onSale: true
   },
   
    {
-    name: `Black Solid Bodycon Dress`,
+    name: `Solid Bodycon Dress`,
     imageUrl: `img/img4.jpeg`,
     productCode: 120,
     category: `Casual`,
     price: `200`,
-    rating: 3.1,
+    rating: 4,
     brand: `Zara`,
-    colors: [`Purple`, `Green`,`Red`],
+    colors: [`Green`,`Red`],
     stock: 36,
-    sizes: [S,M,L],
+    sizes: `S`,
     discount: 40,
     onSale: true
   },
@@ -96,11 +96,11 @@ const dressData = [
     productCode: 300,
     category: `Custom`,
     price: `200`,
-    rating: 3.1,
+    rating: 3,
     brand: `Zara`,
-    colors: [`red`, `blue`, `black`],
+    colors: [`Blue`, `Black`],
     stock: 87,
-    sizes: [XS,M,L],
+    sizes: `M`,
     discount: 40,
     onSale: true
   },
@@ -110,68 +110,68 @@ const dressData = [
     productCode: 170,
     category: `Custom`,
     price: `200`,
-    rating: 3.1,
+    rating: 5,
     brand: `Zara`,
-    colors: [`red`, `blue`, `green`],
+    colors: [`Red`],
     stock: 89,
-    sizes: [S,M,L],
+    sizes: `L`,
     discount: 40,
     onSale: true
   },
   
 {
-    name: `Shift Orange Dress`,
+    name: `Straight fit Dress H&M`,
     imageUrl: `img/img8.jpeg`,
     productCode: 111,
     category: `Casual`,
     price: `210`,
     rating: 2,
     brand: `gap`,
-    colors: [`Purple`, `Green`,`Red`],
+    colors: [`Green`],
     stock: 76,
-    sizes: [XS,M,XL],
+    sizes: `XL`,
     discount: 5,
     onSale: true
   },
    {
-    name: `Fit Blue Dress`,
+    name: `Stripes Dress Gap`,
     imageUrl: `img/img9.jpeg`,
     productCode: 112,
     category: `Custom`,
     price: `110`,
-    rating: 4.2,
+    rating: 4,
     brand: `gap`,
-    colors: [`red`, `blue`],
+    colors: [`Blue`],
     stock: 6,
-    sizes: [S,M,L],
+    sizes: `XS`,
     discount: 5,
     onSale: false
   },
   {
-    name: `High Low Black Dress `,
+    name: `Low fit Dress H&M`,
     imageUrl: `img/img10.jpeg`,
     productCode: 113,
     category: `Casual`,
     price: `180`,
-    rating: 3.7,
+    rating: 3,
     brand: `gap`,
-    colors: [`red`, `blue`, 'black'],
+    colors: [`Black`],
     stock: 112,
-    sizes: [XS,XL],
+    sizes: `S`,
     discount: 5,
     onSale: true
   },
    {
-    name: `Pinafore Red Dress`,
+    name: `Pinafore hign waist Dress`,
     imageUrl: `img/img11.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Party Wear`,
     price: `130`,
     rating: 2,
     brand: `gap`,
-    colors: [`red`, `blue`],
+    colors: [`Blue`],
     stock: 10,
-    sizes: [XS,M,XL],
+    sizes: `M`,
     discount: 5,
     onSale: true
   },
@@ -181,109 +181,109 @@ const dressData = [
     productCode: 113,
     category: `Party Wear`,
     price: `180`,
-    rating: 3.7,
+    rating: 5,
     brand: `gap`,
-    colors: [`black`],
+    colors: [`Black`],
     stock: 112,
-    sizes: [S,M,L],
+    sizes: `L`,
     discount: 5,
     onSale: true
   },
    {
     name: `Shirt Multicolor Dress`,
     imageUrl: `img/img13.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Casual`,
     price: `130`,
     rating: 2,
     brand: `gap`,
     colors: [`Red`, `Blue`],
     stock: 10,
-    sizes: [XS,M,XL],
+    sizes: `XL`,
     discount: 5,
     onSale: true
   },
   {
     name: `Skirt with Tie Belt`,
     imageUrl: `img/img14.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Custom`,
     price: `130`,
-    rating: 2,
+    rating: 4,
     brand: `gap`,
-    colors: [`red`, `blue`],
+    colors: [`Red`],
     stock: 34,
-    sizes: [S,M,L],
+    sizes: `L`,
     discount: 5,
     onSale: true
   },
   {
-    name: `Maxi White Dress`,
+    name: `Long Maxi Dress`,
     imageUrl: `img/img15.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Party Wear`,
     price: `130`,
-    rating: 2,
+    rating: 3,
     brand: `gap`,
-    colors: [`Red`, `Green`],
+    colors: [`Red`, `Green`,`Blue`],
     stock: 10,
-    sizes: [XS,M],
+    sizes: `XL`,
     discount: 45,
     onSale: true
   },
   {
     name: `Skirt with Tie Belt`,
     imageUrl: `img/img18.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Party Wear`,
     price: `130`,
-    rating: 2,
+    rating: 4,
     brand: `gap`,
-    colors: [`red`, `blue`],
+    colors: [`Blue`],
     stock: 43,
-    sizes: [XS,M],
+    sizes: `M`,
     discount: 5,
     onSale: true
   },
   {
     name: `Bodycon Multicolor Dress`,
     imageUrl: `img/img19.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Casual`,
     price: `130`,
-    rating: 2,
+    rating: 5,
     brand: `gap`,
-    colors: [`Purple`, `Black`,`Red`],
+    colors: [`Purple`, `Black`],
     stock: 10,
-    sizes: [S,M,XL],
+    sizes: `S`,
     discount: 5,
     onSale: true
   },
   {
-    name: `Fit and Flare Pink Dress`,
+    name: `Fit and Flare Dress Zara`,
     imageUrl: `img/img20.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Party Wear`,
     price: `130`,
     rating: 2,
     brand: `gap`,
-    colors: [`Purple`, `Green`,`Red`],
+    colors: [`Green`,`Red`],
     stock: 10,
-    sizes: [XS,M],
+    sizes: `XL`,
     discount: 5,
     onSale: true
   },
   {
-    name: ` Wrap White Dress`,
+    name: `Body Wrap Dress`,
     imageUrl: `img/img21.jpeg`,
-    productCode: `PUMA103`,
+    productCode: `Gap103`,
     category: `Casual`,
     price: `130`,
-    rating: 2,
+    rating: 1,
     brand: `gap`,
-    colors: [`Black`, `Green`,`Blue`],
+    colors: [`Black`],
     stock: 67,
-    sizes: [S,M,L],
+    sizes: `L`,
     discount: 5,
     onSale: true
   }
@@ -312,7 +312,7 @@ function getDressesAsHtml(dressData) {
 
 function SearchAsHtml(){
   return `<div class="search">
-  <input placeholder="Search for products, brands and more" type="search" name="find" id="find" >
+  <input placeholder="Search for products" type="search" name="find" id="find" >
   <a class="searchSubmit" >
       <span class="material-icons search-span">search</span>
   </a>
@@ -352,14 +352,110 @@ const searchDresses=() => {
 const renderDresses = (arr) => {
   document.getElementById("places-block").innerHTML = arr.map(getDressesAsHtml).join("\n");
 }
+
+
+
+const colorBlackFilter = () =>{
+  const redDresses = dressData.filter(c => c.colors == "Black");
+  renderDresses(redDresses);
+
+}
+
+const colorPurpleFilter = () => {
+  const purpleDresses = dressData.filter(c => c.colors == "Purple");
+  renderDresses(purpleDresses);
+
+}
+
+const colorGreenFilter = () => {
+  const greenDresses = dressData.filter(c => c.colors == "Green");
+  renderDresses(greenDresses);
+
+}
+
+const colorRedFilter = () => {
+  const redDresses = dressData.filter(c => c.colors == "Red");
+  renderDresses(redDresses);
+
+}
+
+const colorBlueFilter = () => {
+  const blueDresses = dressData.filter(c => c.colors == "Blue");
+  renderDresses(blueDresses);
+
+}
+
+const sizeXsFilter = () =>{
+  const xsDresses = dressData.filter(c => c.sizes =="XS");
+  renderDresses(xsDresses)
+}
+
+const sizeSFilter = () =>{
+  const sDresses = dressData.filter(c => c.sizes =="S");
+  renderDresses(xsDresses)
+}
+
+const sizeMFilter = () =>{
+  const mDresses = dressData.filter(c => c.sizes =="M");
+  renderDresses(mDresses)
+}
+
+const sizeLFilter = () =>{
+  const lDresses = dressData.filter(c => c.sizes =="L");
+  renderDresses(lDresses)
+}
+
+const sizeXlFilter = () =>{
+  const xlDresses = dressData.filter(c =>c.sizes =="XL");
+  renderDresses(xlDresses)
+}
+
+const fiveStarFilter = () => {
+  const fiveStars = dressData.filter(c => c.rating >=4)
+  renderDresses(fiveStars)
+}
+
+const fourStarFilter = () => {
+  const fourStars = dressData.filter(c => c.rating >=3 && c.rating < 4)
+  renderDresses(fourStars)
+}
+
+const threeStarFilter = () => {
+  const threeStars = dressData.filter(c => c.rating >=2 &&  c.rating < 3)
+  renderDresses(threeStars)
+}
+
+const twoStarFilter = () => {
+  const twoStars = dressData.filter(c => c.rating >=1  &&  c.rating < 2)
+  renderDresses(twoStars)
+}
   
 //execution
 window.addEventListener('load', () => {
   renderDresses(dressData);
   document.getElementById("searchMain").innerHTML = SearchAsHtml();
+
   document.getElementById("find").addEventListener("input",searchDresses);
+
   document.getElementById(`HighToLowBtn`).addEventListener("click", ProductHighToLow);
-document.getElementById(`LowToHighBtn`).addEventListener("click", ProductLowToigh);
-document.getElementById(`availabilityBtn`).addEventListener("click", ProductsByAvailability);
+  document.getElementById(`LowToHighBtn`).addEventListener("click", ProductLowToigh);
+  document.getElementById(`availabilityBtn`).addEventListener("click", ProductsByAvailability);
+
+  document.getElementById("black").addEventListener("click",colorBlackFilter);
+  document.getElementById("purple").addEventListener("click",colorPurpleFilter);
+  document.getElementById("green").addEventListener("click",colorGreenFilter);
+  document.getElementById("red").addEventListener("click",colorRedFilter);
+  document.getElementById("blue").addEventListener("click",colorBlueFilter);
+
+    document.getElementById("xs").addEventListener("click",sizeXsFilter);
+    document.getElementById("sm").addEventListener("click",sizeSFilter);
+    document.getElementById("md").addEventListener("click",sizeMFilter);
+    document.getElementById("lg").addEventListener("click",sizeLFilter);
+    document.getElementById("xl").addEventListener("click",sizeXlFilter);
+
+    document.getElementById("aboveFour").addEventListener("click",fiveStarFilter);
+    document.getElementById("aboveThree").addEventListener("click",fourStarFilter);
+    document.getElementById("aboveTwo").addEventListener("click",threeStarFilter);
+    document.getElementById("aboveOne").addEventListener("click",twoStarFilter);
 
 });
