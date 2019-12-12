@@ -92,6 +92,7 @@ html{
     padding: 0 1.5rem;
     font-weight: normal;
     text-decoration: none;
+    margin-top: 0.5em;
   }
   /*search bar css*/
   .navItems .searchQuery{
@@ -149,7 +150,7 @@ html{
   background-position: -754px 0;
   color: #0b4dad;
   }  
-  
+
 /*products styles*/
   .productsMain h2{
     text-align: center;
