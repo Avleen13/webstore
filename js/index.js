@@ -300,13 +300,12 @@ function getDressesAsHtml(dressData) {
       <button type="button" class="favBtn" id="favBtn"><span class="material-icons">favorite</span></button>
   </div>
     <div class="content_x">
-    <p class="p-heading"><strong>${dressData.name}</strong></p>
+      <p class="p-heading"><strong>${dressData.name}</strong></p>
       <p class="productCardListItem"><h3>${dressData.category}</h3></p>
       <p class="productCardListItem"><h3>Price: $${dressData.price}</h3></p>
       <p class="productCardListItem"><h3>Average rating: ${dressData.rating}</h3></p>
-
-        <a type="button" class="btn" id="addtocart"> Add to Cart</a> 
-        </div>
+      <input type="button" class="btn" id="addtocart" value="Add to Cart">
+      </div>
 </section>`;
 }
 
